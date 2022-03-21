@@ -1,0 +1,53 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "powermode.enabled": true,
+  "powermode.enableStatusBarComboTimer": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "glassit.alpha": 255,
+  "workbench.colorTheme": "Dracula darker contrast",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vscode-icons",
+  "remote.SSH.remotePlatform": {
+    "upcloud-azoomdqtrung-dev": "linux"
+  },
+  "eslint.format.enable": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "bash (2)": {
+      "path": "/usr/bin/bash"
+    },
+    "sh": {
+      "path": "/bin/sh"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "bracketPairColorizer.depreciation-notice": false,
+  "powermode.combo.location": "statusbar",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.explosions.size": 3.5,
+  "powermode.explosions.offset": 0.2
+}
