@@ -1,53 +1,105 @@
 {
-  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Default Dark+",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "googleTranslateExt.replaceText": true,
+  "explorer.confirmDelete": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "editor.foldingImportsByDefault": true,
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "turboConsoleLog.logMessagePrefix": " ",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.quote": "'",
+  "editor.mouseWheelZoom": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.stickyScroll.enabled": false,
+  "gitlens.graph.layout": "editor",
+  "editor.tabSize": 2,
+  "editor.rulers": [100],
+  "eslint.options": {
+    "extensions": [".html", ".js", ".vue", ".jsx"]
+  },
+  "eslint.validate": ["html", "vue", "javascript", "javascriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll": "explicit"
+  },
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.singleQuote": true,
+  "prettier.insertPragma": true,
+  "prettier.bracketSameLine": false,
+  "prettier.printWidth": 100,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "powermode.enabled": true,
-  "powermode.enableStatusBarComboTimer": false,
-  "terminal.integrated.fontFamily": "monospace",
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true,
-  "glassit.alpha": 255,
-  "workbench.colorTheme": "Dracula darker contrast",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.iconTheme": "vscode-icons",
-  "remote.SSH.remotePlatform": {
-    "upcloud-azoomdqtrung-dev": "linux"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // optional
+  "editor.formatOnSaveMode": "file",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "eslint.format.enable": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
-    },
-    "zsh": {
-      "path": "zsh"
-    },
-    "fish": {
-      "path": "fish"
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    },
-    "bash (2)": {
-      "path": "/usr/bin/bash"
-    },
-    "sh": {
-      "path": "/bin/sh"
-    }
+  "prettier.singleAttributePerLine": true,
+  "prettier.requireConfig": true,
+  "workbench.startupEditor": "none",
+  "github.copilot.advanced": {
+    "authProvider": "github"
   },
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "bracketPairColorizer.depreciation-notice": false,
-  "powermode.combo.location": "statusbar",
-  "powermode.combo.counterEnabled": "hide",
-  "powermode.combo.timerEnabled": "hide",
-  "powermode.shake.enabled": false,
-  "powermode.explosions.size": 3.5,
-  "powermode.explosions.offset": 0.2
+  "editor.formatOnSave": true,
+  "codeium.enableCodeLens": false,
 }
